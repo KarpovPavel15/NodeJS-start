@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/scriptPost.js"></script>
+	<title>index</title>
+</head>
+<body>
+	<div id="container">
+<div id="navigation">
+<div id="nav_center">
+	
+	</div>
+</div>
+<div id="content">
+<form action="indexPost" method="POST">
+	<label for="first_name">Имя</label>
+	<input name="first_name" id="first_name" type="text"><br>
+	<label for="last_name">Фамилия</label>
+	<input name="last_name" id="last_name" type="text"><br>
+	<label for="email">e-mail</label>
+	<input name="email" type="email" id="email"><br>
+	<label for="password">Пароль</label>
+	<input name="password" type="password" id="password"><br>
+	<label for="confirm_password">Повторите пароль</label>
+	<input name="confirm_password" type="password" id="confirm_password"><br>
+	<label for="date">Дата рождения</label>
+	<input name="date" type="date" id="date"><br>
+	<label for="country">Страна</label>
+	<select name="country" id="country">
+		<option value="Belarus">Belarus</option>
+		<option value="Russia">Russia</option>
+		<option value="Canada">Canada</option>
+	</select><br>
+	<input type="reset">
+	<input type="button" value="Отправить" onClick="func()">
+
+</form>
+
+
+</div>
+</div>
+</body>
+</html>
